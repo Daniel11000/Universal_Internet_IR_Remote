@@ -1,0 +1,16 @@
+KONFIGURACJA HOSTINGU
+
+Konfiguracja każdego hostingu jest inna.
+Ja korzystaem z "000.webhost".
+
+Po wgraniu plików w odpowiednie miejsce (w moim przypadku był to katalog "public_html") należy skonfigurować hosting. 
+W moim przypadku w folderze "public_html" (tam gdzie wgrywało się pliki strony) był plik ".htaccess" .
+Zawierał on 3 linijki - 2 zakomentowane (na początku oraz na końcu), a między nimi linijka o treści:
+                      "php_value display_errors 1"
+aby strona działała poprawnie należy dodać pod powyższą linijką jeszcze jedną linijkę:
+                      "php_value output_buffering 1"
+
+Po dodaniu jej w pliku ".htaccess" i zapisaniu zmian strona powinna działać poprawnie.
+
+
+W przypadku innych hostingów może się to robić w inny sposób, lub jakakolwiek konfiguracja może nie być potrzebna.
