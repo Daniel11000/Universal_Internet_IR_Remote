@@ -1,0 +1,472 @@
+body{
+	color: black;
+	text-align: center;
+	font-size: 20px;
+	
+	/* background-image: url("img/light-grey-terrazzo.png"); */
+	background-image: url("img/stardust.png");
+	margin: 0px;
+	font-family: 'Open Sans', sans-serif;
+	
+}
+
+a:link
+{
+	color: black;
+	text-decoration: none;
+}
+
+a:visited
+{
+	color: black;
+	text-decoration: none;
+}
+
+a:hover
+{
+	color: #485b3b;
+	text-decoration: underline;
+}
+
+a:active
+{
+	color: black;
+	text-decoration: none;
+}
+
+h1 {
+  text-decoration: underline;
+  margin-left: 7px;
+  color: red;
+  /*font-style: italic;*/
+  font-weight: bolder;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 52px;
+}
+	#baner
+	{
+		
+		color: white;
+		text-align: center;
+		width: 1530px;
+		/*height: 50px;*/
+		
+		font-size: 36px;
+		color: white;
+		text-transform: uppercase;
+		/*padding: 5px 0px 5px 0px;*/
+		letter-spacing: 3px;
+		margin-left: auto;
+		margin-right: auto;
+		
+	}
+	#container
+	{
+		width: 1500px;
+		margin-left: auto;
+		margin-right: auto;
+		
+	}
+	#menu
+	{
+		
+		background-color: lightgray;
+		width: 1500px;
+		min-height: 30px;
+		/*padding: 20px;*/
+		margin-left: auto;
+		margin-right: auto;
+	}
+	#tresc
+	{
+		
+	/*	padding: 20px;*/
+		margin-left: auto;
+		margin-right: auto;
+		background-color: white;
+		width: 1500px;
+		
+		border-left: 1px solid #ccc;
+		border-right: 1px solid #ccc;
+	}
+	
+	#stopka
+	{
+		
+		background-color: black;
+		color: white;
+		text-align: center;
+		padding: 20px;
+			width: 1500px;
+		height: 25px;
+		background-color: black;
+		font-size: 20px;
+		color: white;
+		text-align: center;
+		text-transform: uppercase;
+		/*padding: 5px 0px 5px 0px;*/
+		letter-spacing: 3px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	
+	.bubble
+	{
+		background-color: #f1f1f1;
+		border-radius: 10px;
+		/* padding: 15px; */
+		padding: 25px;
+		margin-bottom: 20px;
+		box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+		display: block; /* Wyświetlanie: jeden pod drugim */
+		background-image: url("img/45degreee_fabric.png");
+		/* Ustawienie szerokości na 50% i wyśrodkowanie poziome */
+		width: 50%;
+		margin-left: auto;
+		margin-right: auto;
+		/* */
+		/* transition: all 1s ease-in-out; */
+		transition: all 0.5s ease-in-out;
+		font-size: 25px;
+		
+	}
+	.bubble:hover{
+		/* transform: scale(0.9); */
+		transform: scale(1.1);
+		/* opacity: 0.1; */
+		/* opacity: 0.7; */
+		opacity: 5.7;
+		/* font-size: 32px; */
+		font-size: 35px;
+		text-decoration: none;
+	}
+
+	/* Styl dla nagłówka dymka */
+	.bubble_h2
+	{
+		color: #333;
+		margin-bottom: 10px;
+		text-decoration: none;
+		font-size: 32px;
+	}
+
+	/* Styl dla treści dymka */
+	.bubble_p
+	{
+		color: #555;
+	}
+
+	#rem_tab {
+		border-collapse: collapse;
+		width: 750px;
+		/* Ustawienie szerokości na 50% i wyśrodkowanie poziome */
+		width: 50%;
+		margin-left: auto;
+		margin-right: auto;	
+		overflow: hidden;
+		resize: both;	
+		/* border: 2px solid #000; */
+	}
+	#rem_tab table{
+		width: 100%;
+        height: 100%;
+	}
+	#rem_tab td{
+		border-collapse: collapse;
+		width: 750px;
+		font-size: 25px;
+		width: 250px;
+		height: 100px;
+		/* border: 1px solid white; */
+		border: 2px solid white;
+		text-align: center;
+		overflow: auto;
+		resize: both;	
+		background-color: #c2baba7d;
+	}
+	#rem_tab td:hover{
+		/* transform: scale(1.5); */
+		font-size: 35px;
+		opacity: 1.1;
+	}
+	#rem_tab tr{
+		overflow: auto;
+		resize: both;	
+	}
+
+	.edit-button {
+		display: inline-block;
+		background-color: #f0f0f0; /* Jasnoszary kolor */
+		border: 1px solid #ccc; /* Rama */
+		border-radius: 50%; /* Okrągły kształt */
+		border-radius: 100px;
+		padding: 10px 15px; /* Wewnętrzne odstępy */
+		margin-top: 10px; /* Odstęp od tabeli */
+		margin-top: 40px;
+		text-decoration: none; /* Usunięcie domyślnego podkreślenia tekstu w odnośniku */
+		color: #333; /* Kolor tekstu */
+	}
+	.edit-button:hover{
+		transform: scale(0.9);
+		opacity: 0.4
+	}
+
+	.ir_h1_title{
+		text-decoration: bold;
+		margin-left: 7px;
+		color: white;
+		/*font-style: italic;*/
+		font-weight: bolder;
+		text-align: center;
+		text-transform: uppercase;
+		font-size: 52px;
+
+		background-color: black;
+		border-radius: 10px;
+		/* padding: 15px; */
+		padding: 25px;
+		margin-bottom: 20px;
+		margin-top: 25px;
+		box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+		/* Ustawienie szerokości na 50% i wyśrodkowanie poziome */
+		width: 90%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.ir_h2_title{
+		text-decoration: underline;
+		margin-left: 7px;
+		color: white;
+		/*font-style: italic;*/
+		font-weight: bolder;
+		text-align: center;
+		text-transform: uppercase;
+		font-size: 50px;
+
+		background-color: black;
+		border-radius: 10px;
+		/* padding: 15px; */
+		padding: 25px;
+		margin-bottom: 20px;
+		margin-top: 25px;
+		box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+		/* Ustawienie szerokości na 50% i wyśrodkowanie poziome */
+		width: 90%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.add_btn
+	{
+
+		display: inline-block;
+        background-color: #f1f1f1; /* Kolor tła */
+        color: black; /* Kolor tekstu */
+        text-align: center;
+        text-decoration: none;
+		/* text-decoration: none; */
+        font-size: 42px; /* Rozmiar czcionki */
+        border-radius: 50%; /* Zaokrąglenie kształtu */
+        width: 80px; /* Szerokość */
+        height: 80px; /* Wysokość */
+        line-height: 80px; /* Wysokość linii */
+		
+		box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+		display: block; /* Wyświetlanie: jeden pod drugim */
+		background-image: url("img/45degreee_fabric.png");
+		transition: all 0.8s ease-in-out;
+
+
+
+		display: inline-block;
+		background-color: #f0f0f0; /* Jasnoszary kolor */
+		border: 1px solid #ccc; /* Rama */
+	}
+	.add_btn:hover{
+		/* transform: scale(0.9); */
+		transform: scale(1.2) rotate(-270deg);
+		/* opacity: 0.1; */
+		/* opacity: 0.7; */
+		opacity: 5.7;
+		text-decoration: none;
+	}
+
+	.form-container {
+        width: 300px;
+        margin: 20px;
+        padding: 10px;
+        /* border: 1px solid #000; */
+		border: 2px solid #000;
+        border-radius: 10px;
+        float: left; /* Dla wyświetlania obok siebie */
+        margin-right: 20px; /* Dla odstępu między formularzami */
+		margin-left: 20px; /* Dla odstępu między formularzami */
+		/* margin-right: auto;
+		margin-left: auto; */
+		font-size: 20px;
+
+		color: white;
+		background-color: #0000008a;
+			padding: 25px;
+			margin-bottom: 20px;
+    }
+    /* @media only screen and (max-width: 600px) { */
+        /* Dla wersji mobilnej - formularze będą pod sobą */
+        /* .form-container { */
+		/*	display: block; /* Wyświetlanie: jeden pod drugim */
+            /* float: none;
+            margin-right: 0;
+            margin-bottom: 20px;
+        }
+    } */
+	/* @media only screen and (max-width: 600px) {
+		.form-container {
+			width: 100%; /* Pełna szerokość na urządzeniach o szerokości 600 pikseli lub mniejszej */
+		/*	float: none; /* Anulowanie ustawienia float */
+		/*	margin-right: 0; /* Anulowanie marginesu z prawej strony */
+		/*	margin-left: 0; /* Anulowanie marginesu z lewej strony */
+		/*	display: block;
+		}
+	} */
+	.form-container_title{
+		font-size: 25px;
+		/* text-decoration: underline; */
+		font-weight: bold;
+	}
+
+	/* Styl dla przycisków */
+    .form-container input[type='submit'] {
+        display: inline-block;
+        padding: 10px 20px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 16px;
+        border: 1px solid #3498db;
+        color: #3498db;
+        border-radius: 5px;
+        transition: background-color 0.3s ease;
+        cursor: pointer;
+		transition: all 0.25s ease-in-out;
+    }
+
+    .form-container input[type='submit']:hover {
+		background-color: #3498db;
+		background: radial-gradient(circle at center,  #3498db 75%, #b5b4b4);
+        color: #fff;
+		/* transform: scale(0.9); */
+		transform: scale(1.1);
+		opacity: 0.7
+    }
+
+
+		/* tabela */
+		/* .table-container {
+			max-width: 85%;
+			margin: 20px auto;
+			overflow-x: auto;
+			align-items: center;
+		} */
+
+	.minimal-table {
+        width: 100%;
+		max-width: 85%;
+		/* max-width: 50px; */
+        border-collapse: collapse;
+        margin: 20px 0;
+        font-family: Arial, sans-serif;
+		display: flex;
+		/* justify-content: center; */
+        align-items: center;
+		margin-right: auto;
+		margin-left: auto;
+		overflow-x: auto; /* Dodaj pasek przewijania poziomego, jeśli tabela jest zbyt szeroka */
+    }
+
+    .minimal-table th, .minimal-table td {
+        border: 1px solid #ddd;
+        padding: 8px;
+        /* text-align: left; */
+		text-align: center;
+    }
+
+    .minimal-table th {
+        background-color: #f2f2f2;
+    }
+
+    .minimal-table tr:hover {
+        /* background-color: #f5f5f5; */
+		background-color: #c4b8b8ad;
+    }
+	.scrollup
+{
+	width: 64px;
+	height: 64px;
+	text-decoration: none;
+	background: url("img/up.png") no-repeat 0px 0px;
+	position: fixed;
+	right: 50px;
+	bottom: 50px;
+	display: none;
+}
+	#tabela td{
+	 border: 1px solid black;
+   border-collapse: collapse;
+   text-align: center;
+   width: 30%;
+   margin: 15px auto 15px auto;
+   color: red;
+   background-color: light-grey-terrazzo;
+   padding: 3px;
+   border-spacing: 3px;
+   font-size: 25px;
+   
+}
+#tmenu td{
+	 border: 2px solid black;
+   border-collapse: collapse;
+   text-align: center;
+   width: 10%;
+   margin: 5px auto 5px auto;
+   color: yellow;
+   background-image: url("img/Sentieri_Bikepark_cards_520x280[1].jpg");
+   padding: 5px;
+   border-spacing: 5px;
+   font-size: 23px;
+   
+}
+#logo
+{
+	color: white;
+		text-align: center;
+		width: 1530px;
+		
+		background-color: black;
+		
+		font-size: 65px;
+		color: white;
+		text-transform: uppercase;
+		text-shadow:
+	2px 2px 0 red,
+	-2px 2px 0 red,
+	-2px -2px 0 red,
+	2px -2px 0 red;
+		letter-spacing: 3px;
+		margin-left: auto;
+		margin-right: auto;
+}
+#pmenu td{
+	 border: 2px solid black;
+   border-collapse: collapse;
+   text-align: center;
+   width: 10%;
+   margin: 5px auto 5px auto;
+   color: yellow;
+   background-color: red;
+   padding: 5px;
+   border-spacing: 5px;
+   font-size: 23px;
+   
+}
+	
+	
