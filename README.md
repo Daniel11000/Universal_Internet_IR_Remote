@@ -1,2 +1,2 @@
-# Projekt_Dyplomowy_In-ynierski
+# Projekt_Dyplomowy_Inżynierski
 Projekt Dyplomowy Inżynierski
