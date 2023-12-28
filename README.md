@@ -37,4 +37,12 @@ W katalogu "Kod_ESP32" znajduje się kod na ESP32. Plik ten jest prawie gotowy d
 - Są to zmienne <i>URL_getData</i> , <i>URL_sendData</i> , <i>URL_getIR_Codes</i> , <i>URL_getIR_Codes_RESP</i> - w których należy wpisać adres strony w miejsce napisu <i>"TU_WPISZ_ADRES_SWOJEJ_STRONY"</i> (we wszystkich będzie on taki sam, ponieważ po tym napisie jest odwołanie do różnych podstron).
 - Kolejnymi zmiennymi, które należy zmienić są <i>ssid</i> oraz <i>password</i> - są to nazwa sieci WiFi oraz hasło do sieci WiFi.
 
+Kod do ESP wykorzystuje 4 biblioteki :
+- IRremote.hpp
+- Arduino.h
+- WiFi.h
+- HTTPClient.h
 
+Trzy z nich są wbudowane w IDE (czyli ArduinoIDE), należy doinstalować tylko jedną z nich - bliotekę <i> <b>"IRremote" </b> by shirriff, z3t0, ArminJo </i> 
+<br>(ja korzystałem z wersji 4.2.0).
+<br> Link do GitHub'a tej biblioteki: <a href=https://github.com/Arduino-IRremote/Arduino-IRremote> https://github.com/Arduino-IRremote/Arduino-IRremote </a>
