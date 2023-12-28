@@ -1,5 +1,14 @@
 # Projekt Dyplomowy Inżynierski
+
 <br>
+
+<b><i>Internetowy interfejs dla urządzeń sterowanych pilotem na poczerwień</i></b>
+
+<br>
+
+<i>The Internet Interface for IR Remote Controlled Devices</i>
+
+<br><br><br>
 
 Projekt ten składa się z 2 części:
 - Część na ESP32
