@@ -1,4 +1,4 @@
-# Projekt Dyplomowy Inżynierski
+# Universal Internet IR Remote
 
 <br>
 
