@@ -30,7 +30,7 @@ Część na Internetowa znajduje się w 2 katalogach:
 W katalogu <i>"Aplikacja_Internetowa"</i> znajduje się katalog <i>"public_html"</i> oraz plik <i>"konfiguracja_hostingu.txt"</i>.
 <br> Pliki z katalogu "public_html" są niemal gotowe do wgrania do hostingu. 
 Jedyne co należy zmienić, to w plikach <i>"connect.php"</i> praz <i>"connectPDO.php"</i> należy wpisać użytkownika, hasło oraz nazwę Bazy Danych (w obu takie same).
-<br> Natomiast w pliku <i>"konfiguracja_hostingu.txt"</i> opisana jest konfiguracja hostinhu oraz jak wgrać do niego pliki.
+<br> Natomiast w pliku <i>"konfiguracja_hostingu.txt"</i> opisana jest konfiguracja hostingu oraz jak wgrać do niego pliki.
 
 <br>
 
