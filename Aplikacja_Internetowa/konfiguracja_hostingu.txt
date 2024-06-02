@@ -1,7 +1,7 @@
 KONFIGURACJA HOSTINGU
 
 Konfiguracja każdego hostingu jest inna.
-Ja korzystaem z "000.webhost".
+Ja korzystałem z "000.webhost".
 
 Po wgraniu plików w odpowiednie miejsce (w moim przypadku był to katalog "public_html") należy skonfigurować hosting. 
 W moim przypadku w folderze "public_html" (tam gdzie wgrywało się pliki strony) był plik ".htaccess" .
